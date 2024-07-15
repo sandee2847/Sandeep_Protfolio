@@ -25,41 +25,55 @@ const portfolioData = [
   },
   {
     id: 4,
+    title: "Tasks",
+    subtitle: "Mern Stack",
+    image: "assets/img/Tools.jpg",
+    // link: "https://hminnovance.com/"
+  },
+  {
+    id: 5,
+    title: "Timeline",
+    subtitle: "Mern Stack",
+    image: "assets/img/Timeline.jpg",
+    // link: "https://hminnovance.com/"
+  },
+  {
+    id: 6,
     title: "Company Website",
     subtitle: "Mern Stack",
     image: "assets/img/hm.png",
     link: "https://hminnovance.com/"
   },
   {
-    id: 5,
+    id: 7,
     title: "Online Food Ordering",
     subtitle: "Mern Stack",
     image: "assets/img/kimaye.png",
     link: "https://www.kimaye.com/"
   },
   {
-    id: 6,
+    id: 8,
     title: "E-commerce Web App",
     subtitle: "Mern stack",
     image: "assets/img/jaipurkurti.png",
     link: "https://www.jaipurkurti.com/"
   },
   {
-    id: 7,
+    id: 9,
     title: "Cricbuzz Clone",
     subtitle: "Html, Css, JavaScript, Json",
     image: "assets/img/cricbuzz.png",
     link: "https://www.cricbuzz.com/"
   },
   {
-    id: 8,
+    id: 10,
     title: "APPLE TV + - clone (Solo Project)",
     subtitle: "Mern Stack",
     image: "assets/img/vague.png",
     link: ""
   },
   {
-    id: 9,
+    id: 11,
     title: "Sugar Cosmetics",
     subtitle: "Mern Stack",
     image: "assets/img/sugar.jpg",

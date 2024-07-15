@@ -19,7 +19,7 @@ const contactInfo = [
 ];
 
 const Contact = () => {
-  const [portfolio, setPortfolio] = useState(false)
+  const [portfolio, setPortfolio] = useState(false);
   const [mailData, setMailData] = useState({
     name: "",
     email: "",
@@ -72,7 +72,6 @@ const Contact = () => {
           heading={"Let's Discuss Project"}
           subHeading={"Contact"}
           portfolio={portfolio}
-
         />
         <div className="row">
           <div className="col-lg-6">
@@ -92,8 +91,9 @@ const Contact = () => {
                         value={name}
                         id="name"
                         placeholder="Name *"
-                        className={`form-control ${error ? (name.length !== 0 ? "" : "invalid") : ""
-                          }`}
+                        className={`form-control ${
+                          error ? (name.length !== 0 ? "" : "invalid") : ""
+                        }`}
                         type="text"
                       />
                     </div>
@@ -107,8 +107,9 @@ const Contact = () => {
                         value={email}
                         id="email"
                         placeholder="Email *"
-                        className={`form-control ${error ? (email.length !== 0 ? "" : "invalid") : ""
-                          }`}
+                        className={`form-control ${
+                          error ? (email.length !== 0 ? "" : "invalid") : ""
+                        }`}
                         type="email"
                       />
                     </div>
@@ -122,8 +123,9 @@ const Contact = () => {
                         value={subject}
                         id="subject"
                         placeholder="Subject *"
-                        className={`form-control ${error ? (subject.length !== 0 ? "" : "invalid") : ""
-                          }`}
+                        className={`form-control ${
+                          error ? (subject.length !== 0 ? "" : "invalid") : ""
+                        }`}
                         type="text"
                       />
                     </div>
@@ -138,8 +140,9 @@ const Contact = () => {
                         id="message"
                         placeholder="Your message *"
                         rows={3}
-                        className={`form-control ${error ? (message.length !== 0 ? "" : "invalid") : ""
-                          }`}
+                        className={`form-control ${
+                          error ? (message.length !== 0 ? "" : "invalid") : ""
+                        }`}
                       />
                     </div>
                     <span
@@ -181,7 +184,11 @@ const Contact = () => {
               ))}
             </ul>
             <div className="text-center pt-5">
-              <img src="assets/img/contact.svg" className="svg" alt="image" />
+              <img
+                src="assets/img/contact.svg"
+                className="img-fluid"
+                alt="image"
+              />
             </div>
           </div>
         </div>

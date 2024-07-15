@@ -1,5 +1,5 @@
 import SectionTitleSkill from "./SectionTitleSkill";
-import { SiNextdotjs, SiHtml5, SiCss3, SiReact, SiBootstrap, SiTailwindcss, SiGithub, SiJavascript, SiNodedotjs, SiExpress, SiMongodb } from "react-icons/si";
+import { SiNextdotjs, SiHtml5, SiCss3, SiReact, SiBootstrap, SiTailwindcss, SiGithub, SiJavascript, SiNodedotjs, SiExpress, SiMongodb, SiTypescript } from "react-icons/si";
 
 const next = <SiNextdotjs />
 const skillsData = [
@@ -14,25 +14,26 @@ const skillsData = [
   { id: 8, name: "Node JS", icons: <SiNodedotjs /> },
   { id: 8, name: "Express JS", icons: <SiExpress /> },
   { id: 8, name: "MongoDB", icons: <SiMongodb /> },
+  { id: 8, name: "TypeScript", icons: <SiTypescript /> },
 ];
 const experiencesData = [
   {
     id: 1,
-    date: "07/2023 - Present",
+    date: "06/2023 - Present",
+    designation: "Software Engineer (React js)",
+    company: "GYPRC Pvt. Ltd.",
+  },
+  {
+    id: 2,
+    date: "08/2021 - 06/2024",
     designation: "Software Engineer (React js)",
     company: "idesign.market",
   },
   {
-    id: 2,
-    date: "08/2022 - 07/2023",
-    designation: "Front-end Developer",
-    company: "H&M Innovance LLP",
-  },
-  {
     id: 3,
-    date: "08/2021 - 08/2022",
-    designation: "Front-end Developer",
-    company: "Go Business India Pvt. Ltd.",
+    date: "01/2020 - 01/2021",
+    designation: "Computer Operator",
+    company: "CCRI India Pvt. Ltd.",
   },
 
 
