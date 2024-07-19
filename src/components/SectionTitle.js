@@ -125,6 +125,52 @@ const SectionTitle = ({ heading, subHeading, text, portfolio }) => {
                 MOM (Minutes of Meeting), Material Library
               </p>
             </div>
+            {/* backend project */}
+            <h4 className="mt-5">Backend Projects</h4>
+            <div>
+              <h5 style={{ textDecoration: "underline" }}>Task Manager</h5>
+              <p>
+                <b>Description: </b> A RESTful API for managing tasks. Users can
+                create, read, update, and delete tasks. The application should
+                include user authentication and authorization.
+              </p>
+              <p>
+                <b>Features: </b> User registration and login (JWT
+                authentication), CRUD operations for tasks, Task categories and
+                priorities, Task deadlines and reminders, User profile
+                management
+              </p>
+            </div>
+            <div className="mt-2">
+              <h5 style={{ textDecoration: "underline" }}>E-commerce</h5>
+              <p>
+                <b>Description: </b> A backend API for an e-commerce platform.
+                This project involves creating APIs for product management, user
+                authentication, order processing, and payment integration.
+              </p>
+              <p>
+                <b>Features: </b> User registration and login (JWT
+                authentication), CRUD operations for products, Shopping cart
+                functionality, Order management (create, update, view orders),
+                Payment integration razorPay, User profile management
+              </p>
+            </div>
+            <div className="mt-2">
+              <h5 style={{ textDecoration: "underline" }}>
+                Event Booking System
+              </h5>
+              <p>
+                <b>Description: </b> An application for booking events. Users
+                can browse events, book tickets, and manage their bookings.
+              </p>
+              <p>
+                <b>Features: </b> User registration and login (JWT
+                authentication), CRUD operations for events, Event search and
+                filtering, Ticket booking and payment integration, view orders),
+                Booking management (view, cancel bookings), Event organizer
+                profiles
+              </p>
+            </div>
           </>
         )}
       </div>
